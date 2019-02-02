@@ -1,0 +1,45 @@
+.logo {
+  cursor: pointer;
+  outline: none;
+  line-height: 36px;
+  margin-top: 20px;
+}
+
+.logoText {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0;
+  padding-right: 10px;
+  }
+
+.logo img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.logo span {
+  margin: 0 0 0 0;
+}
+
+ul {
+  width: 500px;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.is-active {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}

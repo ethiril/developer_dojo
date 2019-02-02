@@ -1,0 +1,206 @@
+.homeComponent {
+  flex: 1 1 auto;
+
+  .main-content {
+    width: 75%;
+    margin: auto;
+  }
+
+  .homeConsole {
+    padding-top: 3%;
+    padding-bottom: 8%;
+
+    #console {
+      z-index: 10;
+      margin-top: -2%;
+      position: absolute;
+      height: 612px;
+      width: auto;
+      max-width: 90%;
+      border: 0;
+    }
+
+    body {
+      padding-top: 10px;
+    }
+
+    pre {
+      color: #2a2a2a;
+      font-size: 1.2em;
+      font-family: "Courier";
+      margin: 10px 0 0 10px;
+      white-space: pre;
+      overflow: hidden;
+      width: 90%;
+      position: relative;
+      animation: type 2s steps(100, end);
+      z-index: 100;
+      padding-top: 0;
+      padding-left: 10px;
+    }
+
+    pre:nth-child(3) {
+      position: relative;
+      font-size: 0.60em;
+      padding-top: 0;
+      margin-top: 5px;
+      margin-bottom: -10px;
+      animation: type2 5s steps(100, end);
+    }
+
+    pre:nth-child(4) {
+      position: relative;
+      font-size: 1.2em;
+      padding-top: 0;
+      animation: type2 10s steps(100, end);
+    }
+
+    pre a {
+      color: #2a2a2a;
+      text-decoration: none;
+    }
+
+    span {
+      opacity: 0;
+      animation: blink 1s infinite;
+      animation-delay: 5s;
+      z-index: 100;
+      position: relative;
+    }
+    @keyframes type {
+      from {
+        width: 0;
+      }
+    }
+    @keyframes type2 {
+      0% {
+        display: none;
+        width: 0;
+      }
+
+      50% {
+        display: block;
+        width: 0;
+      }
+
+      100% {
+        display: block;
+        width: 100;
+      }
+    }
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      25% {
+        opacity: 1;
+      }
+
+      33% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    ::selection {
+      background: #777677;
+    }
+  }
+
+  .splashGraphic {
+    h1 {
+      font-size: 3.5em;
+      font-weight: 400;
+      margin-top: 10%;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #777677;
+      letter-spacing: 0;
+      line-height: 23px;
+      text-align: left;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .infoGraphic {
+    margin-bottom: 15%;
+    margin-top: 1%;
+    z-index: 20;
+
+    p {
+      font-size: 1em;
+      color: #777677;
+      letter-spacing: 0;
+      line-height: 23px;
+      text-align: left;
+      z-index: 10;
+    }
+
+    h3 {
+      font-size: 3em;
+      color: #2a2a2a;
+      letter-spacing: 0;
+      text-align: left;
+      font-weight: 400;
+      z-index: 10;
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #2a2a2a;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 32px;
+      text-align: left;
+      z-index: 10;
+    }
+
+    img {
+      max-width: 100%;
+      z-index: 5;
+      padding: 0;
+      margin-left: 20px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .dojo-map {
+
+      h3 {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.main-body-background-red-triangle {
+  z-index: 0;
+}
+
+.main-body-background-green-triangle {
+  height: auto;
+  width: 326px;
+  z-index: 0;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 250px;
+  transform: translate(75%, 50%);
+}
+
+.main-body-background {
+  width: 90%;
+  height: 90%;
+  margin-left: 30vw;
+  margin-top: -450px;
+  overflow: hidden;
+  z-index: 0;
+}

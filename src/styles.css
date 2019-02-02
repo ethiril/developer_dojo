@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(~@angular/material/prebuilt-themes/indigo-pink.css);
+@font-face {
+  font-family: "ibm-plex-sans";
+  src: url("assets/ibm-plex-sans/IBMPlexSans-Light-V01.1.eot?") format("eot"), url("assets/ibm-plex-sans/IBMPlexSans-Light-V01.1.woff2") format("woff2"), url("assets/ibm-plex-sans/IBMPlexSans-Light-V01.1.woff") format("woff"); }
+@font-face {
+  font-family: "ibm-plex-sans";
+  font-weight: bold;
+  src: url("assets/ibm-plex-sans/IBMPlexSans-Bold-V01.1.eot?") format("eot"), url("assets/ibm-plex-sans/IBMPlexSans-Bold-V01.1.woff2") format("woff2"), url("assets/ibm-plex-sans/IBMPlexSans-Bold-V01.1.woff") format("woff"); }
+@font-face {
+  font-family: "ibm-plex-sans";
+  font-style: italic;
+  src: url("assets/ibm-plex-sans/IBMPlexSans-Italic-V01.1.eot?") format("eot"), url("assets/ibm-plex-sans/IBMPlexSans-Italic-V01.1.woff2") format("woff2"), url("assets/ibm-plex-sans/IBMPlexSans-Italic-V01.1.woff") format("woff"); }
+* {
+  font-family: "ibm-plex-sans", "Helvetica Neue", Arial, sans-serif;
+  z-index: 10; }
+
+/*# sourceMappingURL=styles.css.map */

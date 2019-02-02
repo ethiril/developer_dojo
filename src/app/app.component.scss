@@ -1,0 +1,31 @@
+.card {
+    display: inline-block;
+    background: white;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.21);
+}
+
+.row {
+    padding: 3rem 0;
+
+    &:nth-child(even) {
+        background: #F0F2F4;
+    }
+}
+
+.background{
+  background-color: #F0F2F4;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: contain;
+  padding: 0px;
+  margin: -8px;
+  margin-bottom: 0;
+  font-family: "ibm-plex-sans", "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 90vw;
+  min-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}

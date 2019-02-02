@@ -1,0 +1,8 @@
+---
+applications:
+ - name: developer-dojo
+   random-route: true
+   memory: 512M
+   instances: 1
+   host: developer-dojo
+   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git

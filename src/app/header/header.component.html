@@ -1,0 +1,13 @@
+<header fxLayout=row fxLayoutAlign="space-between" fxLayout.lt-sm=column-reverse>
+  <nav>
+    <ul>
+      <li class="home"><a [routerLink]="['/home']" [routerLinkActive]="['is-active']">Home</a></li>
+      <li class="events"><a class="inactive" href="#">Events</a></li>
+      <li class="ninjas"><a [routerLink]="['/ninjas']" [routerLinkActive]="['is-active']">Ninjas</a></li>
+    </ul>
+  </nav>
+  <span fxLayout="row" fxLayoutAlign="space-between center" fxLayoutAlign.lt-sm="center center" routerLink="/home" class="logo">
+    <span class="mat-headline logoText">Developer Dojo</span>
+  <img src="assets/images/logo.png" />
+  </span>
+</header>

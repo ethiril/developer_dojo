@@ -1,0 +1,28 @@
+<h1>Developer Dojo Ninjas</h1>
+
+<div class="card sensei" fxLayout="row" fxLayoutAlign="center center" fxLayoutWrap style="margin-top: 1em; ">
+  <div fxFlex="1 1 25%" fxFlex.md="33.333%" fxFlex.sm="50%" fxFlex.xs="100%">
+    <md-card fxLayout="column" fxLayoutAlign="start center"  >
+      <img [src]="'/assets/images/ninjas/'+sensei.imgSrc" />
+        <span style="font-style: italic; color: #A9A9A9;">Sensei</span>
+        <strong>{{sensei.name}}</strong>
+
+      <p>{{sensei.role}}</p>
+      <a href="mailto:{{sensei.email}}" target="_top">{{sensei.email}}</a>
+    </md-card>
+  </div>
+</div>
+
+
+<div class="card ninja" fxLayout="row" fxLayoutAlign="center center" fxLayoutWrap style="margin-top: 1em; ">
+
+  <div fxFlex="1 1 25%" fxFlex.md="33.333%" fxFlex.sm="50%" fxFlex.xs="100%" *ngFor="let ninja of ninjas">
+    <md-card fxLayout="column" fxLayoutAlign="start center"  >
+      <img [src]="'/assets/images/ninjas/'+ninja.imgSrc" />
+      <strong>{{ninja.name}}</strong>
+      <p style="padding:0; margin:0;">{{ninja.role}}</p>
+      <a href="mailto:{{ninja.email}}" target="_top">{{ninja.email}}</a>
+    </md-card>
+  </div>
+
+</div>

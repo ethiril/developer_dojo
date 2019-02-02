@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import 'mixins';
+
+@include font-face(ibm-plex-sans, "assets/ibm-plex-sans/IBMPlexSans-Light-V01.1");
+@include font-face(ibm-plex-sans, "assets/ibm-plex-sans/IBMPlexSans-Bold-V01.1", bold);
+@include font-face(ibm-plex-sans, "assets/ibm-plex-sans/IBMPlexSans-Italic-V01.1", null, italic);
+
+
+* {
+  font-family: "ibm-plex-sans", "Helvetica Neue", Arial, sans-serif;
+  z-index: 10;
+}

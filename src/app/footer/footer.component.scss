@@ -1,0 +1,54 @@
+@import '../../variables';
+
+.footerText {
+  max-width: 800px;
+  float: left;
+  border: 1px;
+  margin-bottom: 1%;
+}
+
+footer{
+  min-height:130px;
+  background-color: #F0F2F4;
+  width: 100%;
+  margin-top: -10px;
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+
+  @media screen and (max-width: $tablet-max-vertical-width) {
+    height: 170px;
+  }
+  @media screen and (max-width: $phone-max-width) {
+    height: 200px;
+  }
+
+  div {
+    width: 77%;
+  }
+
+  img{
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+    float: right;
+  }
+
+  span{
+    color:  black;
+    font-weight: 500;
+    display: inline-block;
+  }
+
+  .accent, a{
+    color: #4178bc;
+  }
+
+  a:hover{
+    background-color: #4178bc;
+    color: white;
+    transition: all 0.3s ease;
+  }
+
+
+}
