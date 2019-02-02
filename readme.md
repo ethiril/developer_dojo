@@ -1,6 +1,6 @@
 # DeveloperDojo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+Side project developed during my placement year at IBM with [Kacper Turon](https://github.com/kacperturon)
 
 ## Development server
 
