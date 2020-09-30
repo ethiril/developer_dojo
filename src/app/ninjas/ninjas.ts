@@ -1,21 +1,19 @@
 export interface Ninja {
-  imgSrc?: string;
+  imgSrc ? : string;
   name: string;
   email: string;
   role: string;
-  favouriteLanguage?: string;
+  favouriteLanguage ? : string;
 }
 
-export const sensei: Ninja =
-  {
-    name: 'Chris Sharp',
-    email: 'sharpc@uk.ibm.com',
-    role: 'STSM, Master Inventor, DevOps Transformation Lead – Hybrid Cloud Management',
-    favouriteLanguage: 'tbd',
-  };
+export const sensei: Ninja = {
+  name: 'Chris Sharp',
+  email: 'sharpc@uk.ibm.com',
+  role: 'STSM, Master Inventor, DevOps Transformation Lead – Hybrid Cloud Management',
+  favouriteLanguage: 'tbd',
+};
 
-export const ninjas: Ninja[] = [
-  {
+export const ninjas: Ninja[] = [{
     name: 'David Currie',
     email: 'David_Currie@uk.ibm.com',
     role: 'Senior Software Engineer – WebSphere Application Server Development',
