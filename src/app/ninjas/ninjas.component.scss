@@ -1,33 +1,43 @@
 @import '../../variables';
 
-$chartColors: #c1d2ac, #d6e9c1, #b8d9ff, #fff0a1, #479cfd, #ffd71e, #8fd755, #628c3f;
+$chartColors: #c1d2ac,
+#d6e9c1,
+#b8d9ff,
+#fff0a1,
+#479cfd,
+#ffd71e,
+#8fd755,
+#628c3f;
 $chartColorsLength: length($chartColors);
 
-.card{
-  md-card{
-      margin-bottom: 0.5em;
-      height:23em;
-      box-sizing: border-box;
-      
-      img{
-        border-radius: 50%;
-        width: 8em;
-        height: auto;
-      }
-      a{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 0 0 10px 0;
-        text-decoration: none;
-        text-align: center;
-      }
+.card {
+  md-card {
+    margin-bottom: 0.5em;
+    height: 23em;
+    box-sizing: border-box;
+
+    img {
+      border-radius: 50%;
+      width: 8em;
+      height: auto;
+    }
+
+    a {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 0 0 10px 0;
+      text-decoration: none;
+      text-align: center;
+    }
   }
 }
-.ninja{
-  div{
+
+.ninja {
+  div {
     padding: 0.4em;
+
     @for $i from 1 through $chartColorsLength {
       &:nth-of-type(#{$chartColorsLength}n+#{$i}) md-card {
         border-top: 4px solid nth($chartColors, $i);
@@ -37,8 +47,8 @@ $chartColorsLength: length($chartColors);
 }
 
 
-.sensei{
-  div{
+.sensei {
+  div {
     border-top: 4px solid yellow;
   }
 }
